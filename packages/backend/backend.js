@@ -13,5 +13,5 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-    res.send({ message: 'Goodbye World!'});
+    res.send({ message: 'Hello World!'});
 });

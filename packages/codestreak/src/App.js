@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 function getBackendMessage() {
-    const promise = fetch('http://localhost:3000');
+    const promise = fetch('http://localhost:8000');
     return promise
 }
 

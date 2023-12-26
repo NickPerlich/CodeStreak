@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "lint": "npx eslint . && npx prettier --check .",
+    "test": "echo \"Error: no test specified\"",
+    "dev": "cd packages/backend && nodemon backend.js",
+    "start": "cd packages/backend && node backend.js"
+  },
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.33.2"
+  }
+}

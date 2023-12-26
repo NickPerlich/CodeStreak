@@ -1,0 +1,27 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "env": {
+      "browser": true,
+      "es2023": true,
+      "node" : true
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "sourceType": "module"
+    },
+    "ignorePatterns": [
+      "**/*.test.js"
+    ], 
+    "rules": {
+      "react/prop-types": 0,
+      "react-hooks/exhaustive-deps": 0
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  

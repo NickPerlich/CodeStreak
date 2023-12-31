@@ -14,11 +14,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "npx nodemon backend.js",
-    "start": "node backend.js",
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "tdd": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watchAll",
-    "coverage": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --collectCoverage",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "lint": "npx eslint . && npx prettier --check .",
     "format": "npx prettier . --write"
   },
